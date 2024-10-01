@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	while(n!=0)
 	{
 		tmp = n%10;
-		soNguoc = soNguoc*10+tmp;
+		soNguoc = soNguoc*10+tmp;// viết ngược lại số lúc đầu;
 		n = n/10;
 	}
 	if(soNguoc == so)
